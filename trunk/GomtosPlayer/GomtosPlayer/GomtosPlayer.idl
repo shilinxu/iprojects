@@ -1,0 +1,63 @@
+// GomtosPlayer.idl : ActiveX 컨트롤 프로젝트의 형식 라이브러리 소스입니다.
+
+// 이 파일은 MIDL 컴파일러 도구에 의해 처리되어
+// GomtosPlayer.ocx의 리소스가 되는
+// GomtosPlayer.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(54E0B22E-4217-4EE1-8BB4-528F3B2DBB1D), version(1.0),
+  helpfile("GomtosPlayer.hlp"),
+  helpstring("GomtosPlayer ActiveX Control Module"),
+  control ]
+library GomtosPlayerLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CGomtosPlayerCtrl의 기본 디스패치 인터페이스입니다.
+
+	[ uuid(8D915DBC-482F-4A7D-A7C8-E95CCDD7CAFB),
+	  helpstring("GomtosPlayer Control의 디스패치 인터페이스")]
+	dispinterface _DGomtosPlayer
+	{
+		properties:
+			[id(7)] DOUBLE CurPosition;
+			[id(8)] DOUBLE Volume;
+			[id(DISPID_BACKCOLOR), bindable, requestedit] OLE_COLOR BackColor;
+			[id(9)] ULONG PlayerState;
+	methods:
+
+			[id(1)] VARIANT_BOOL Open(BSTR pszFilePath);
+			[id(2)] void Play(void);
+			[id(3)] void Pause(void);
+			[id(4)] void Stop(void);
+			[id(5)] void Close(void);
+			[id(6)] DOUBLE Duration(void);
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CGomtosPlayerCtrl의 이벤트 디스패치 인터페이스입니다.
+
+	[ uuid(49E89DD5-EDFD-4D90-8105-584C0EE4471B),
+	  helpstring("GomtosPlayer Control의 이벤트 인터페이스") ]
+	dispinterface _DGomtosPlayerEvents
+	{
+		properties:
+			//  이벤트 인터페이스에 속성이 없습니다.
+
+		methods:
+			[id(1)] void OnStop(void);
+	};
+
+	//  CGomtosPlayerCtrl의 클래스 정보입니다.
+
+	[ uuid(2960FFF0-6756-4807-86A0-D668F259B5FA),
+	  helpstring("GomtosPlayer Control"), control ]
+	coclass GomtosPlayer
+	{
+		[default] dispinterface _DGomtosPlayer;
+		[default, source] dispinterface _DGomtosPlayerEvents;
+	};
+
+};
