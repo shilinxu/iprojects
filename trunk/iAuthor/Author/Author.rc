@@ -1,0 +1,806 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Author.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\log_in.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\App.manifest"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MODEBTN             BITMAP  DISCARDABLE     "res\\ModeBtn.bmp"
+IDB_PENCIL              BITMAP  DISCARDABLE     "res\\Pencil.bmp"
+IDB_PPTNEXT             BITMAP  DISCARDABLE     "res\\PPTNext.bmp"
+IDB_PPTPREV             BITMAP  DISCARDABLE     "res\\PPTPrev.bmp"
+IDB_BLACKBOARD          BITMAP  DISCARDABLE     "res\\BlackBoard.bmp"
+IDB_ZOOMBTN             BITMAP  DISCARDABLE     "res\\ZoomBtn.bmp"
+IDB_BGIMAGE             BITMAP  DISCARDABLE     "res\\BGImage.bmp"
+IDB_COLORBTN            BITMAP  DISCARDABLE     "res\\ColorBtn.bmp"
+IDB_ERASER              BITMAP  DISCARDABLE     "res\\Eraser.bmp"
+IDB_MICBTN              BITMAP  DISCARDABLE     "res\\Mic.bmp"
+IDB_RECORDSTOPBTN       BITMAP  DISCARDABLE     "res\\RecordStopBtn.bmp"
+IDB_RECORDBTN           BITMAP  DISCARDABLE     "res\\RecordBtn.bmp"
+IDB_SHOWHIDETOOLBTN     BITMAP  DISCARDABLE     "res\\ShowHideTool.bmp"
+IDB_HIGHLIGHTPEN        BITMAP  DISCARDABLE     "res\\HighlightPen.bmp"
+IDB_SHOWHIDEBG          BITMAP  DISCARDABLE     "res\\ShowHideBG.bmp"
+IDB_CONTROLBG           BITMAP  DISCARDABLE     "res\\ControlBG.bmp"
+IDB_SNAPSHOT            BITMAP  DISCARDABLE     "res\\Snapshot.bmp"
+IDB_EXIT                BITMAP  DISCARDABLE     "res\\Exit.bmp"
+IDB_PRINT               BITMAP  DISCARDABLE     "res\\Print.bmp"
+IDB_SLIDEMENUBTN        BITMAP  DISCARDABLE     "res\\SlideMenuBtn.bmp"
+IDB_LINEWEIGHTSELBG     BITMAP  DISCARDABLE     "res\\LineWeightSelBG.bmp"
+IDB_BOARDSELBG          BITMAP  DISCARDABLE     "res\\BoardSelBG.bmp"
+IDB_COLORSELBG          BITMAP  DISCARDABLE     "res\\ColorSelBG.bmp"
+IDB_DIAGRAMSELBG        BITMAP  DISCARDABLE     "res\\DiagramSelBG.bmp"
+IDB_ERASERSELBG         BITMAP  DISCARDABLE     "res\\EraserSelBG.bmp"
+IDB_PENSELBG            BITMAP  DISCARDABLE     "res\\PenSelBG.bmp"
+IDB_BRUSH               BITMAP  DISCARDABLE     "res\\Brush.bmp"
+IDB_UNDO                BITMAP  DISCARDABLE     "res\\Undo.bmp"
+IDB_ERASERALL           BITMAP  DISCARDABLE     "res\\EraserAll.bmp"
+IDB_ERASERRECT          BITMAP  DISCARDABLE     "res\\EraserRect.bmp"
+IDB_WRITEBOARD          BITMAP  DISCARDABLE     "res\\WriteBoard.bmp"
+IDB_MUSICBOARD          BITMAP  DISCARDABLE     "res\\MusicBoard.bmp"
+IDB_WHITEBOARD          BITMAP  DISCARDABLE     "res\\WhiteBoard.bmp"
+IDB_RECT                BITMAP  DISCARDABLE     "res\\Rect.bmp"
+IDB_ELLIPSE             BITMAP  DISCARDABLE     "res\\Ellipse.bmp"
+IDB_LINE                BITMAP  DISCARDABLE     "res\\Line.bmp"
+IDB_LINEWEIGHTBTN       BITMAP  DISCARDABLE     "res\\LineWeightBtn.bmp"
+IDB_RECORDPAUSEBTN      BITMAP  DISCARDABLE     "res\\RecordPauseBtn.bmp"
+IDB_SLIDEMENUBG         BITMAP  DISCARDABLE     "res\\SlideMenuBG.bmp"
+IDB_MOVEBOTTOMBTN       BITMAP  DISCARDABLE     "res\\MoveBottomBtn.bmp"
+IDB_MOVETOPBTN          BITMAP  DISCARDABLE     "res\\MoveTopBtn.bmp"
+IDB_WMVBTN              BITMAP  DISCARDABLE     "res\\WMVBtn.bmp"
+IDB_HELPBTN             BITMAP  DISCARDABLE     "res\\HelpBtn.bmp"
+IDB_SLIDEMENU_BOTTOMBG  BITMAP  DISCARDABLE     "res\\SlideMenuBottom.bmp"
+IDB_SLIDEMENU_TOPBG     BITMAP  DISCARDABLE     "res\\SlideMenuTop.bmp"
+IDB_SLIDEMENUCAPBG      BITMAP  DISCARDABLE     "res\\SlideMenuCapBG.bmp"
+IDB_RECORDPROGRESS      BITMAP  DISCARDABLE     "res\\RecordProgress.bmp"
+IDB_WMVCONVBG           BITMAP  DISCARDABLE     "res\\WMVConvBG.bmp"
+IDB_WMVBROWSERBTN       BITMAP  DISCARDABLE     "res\\WMVBrowseBtn.bmp"
+IDB_WMVCANCELBTN        BITMAP  DISCARDABLE     "res\\WMVCancelBtn.bmp"
+IDB_WMVNEXTBTN          BITMAP  DISCARDABLE     "res\\WMVNextBtn.bmp"
+IDB_WMVPREVIEWBTN       BITMAP  DISCARDABLE     "res\\WMVPreviewBtn.bmp"
+IDB_WMVFINISHBTN        BITMAP  DISCARDABLE     "res\\WMVFinishBtn.bmp"
+IDB_WMVCLOSEBTN         BITMAP  DISCARDABLE     "res\\WMVClose.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\Logo.bmp"
+IDB_OPTIONBG            BITMAP  DISCARDABLE     "res\\OptionBG.bmp"
+IDB_BGIMAGE1            BITMAP  DISCARDABLE     "res\\BGImage1.bmp"
+IDB_OPTIONBTN           BITMAP  DISCARDABLE     "res\\OptionBtn.bmp"
+IDB_OPTIONOKBTN         BITMAP  DISCARDABLE     "res\\OptionOKBtn.bmp"
+IDB_OPTIONCANCELBTN     BITMAP  DISCARDABLE     "res\\OptionCancelBtn.bmp"
+IDB_OPTION_TOOLBARBTN   BITMAP  DISCARDABLE     "res\\Option_Toolbar.bmp"
+IDB_OPTION_ABOUTBTN     BITMAP  DISCARDABLE     "res\\Option_About.bmp"
+IDB_OPTION_HOTKEYBTN    BITMAP  DISCARDABLE     "res\\Option_Hotkey.bmp"
+IDB_OPTION_RECBTN       BITMAP  DISCARDABLE     "res\\Option_Rec.bmp"
+IDB_BGIMAGE2            BITMAP  DISCARDABLE     "res\\BGImage2.bmp"
+IDB_COMPANY             BITMAP  DISCARDABLE     "res\\Company.bmp"
+IDB_SLIDEOPENBTN        BITMAP  DISCARDABLE     "res\\SlideOpenBtn.bmp"
+IDB_CAMERA              BITMAP  DISCARDABLE     "res\\camera.bmp"
+IDB_TEXT                BITMAP  DISCARDABLE     "res\\Text.bmp"
+IDB_OPTION_PENBTN       BITMAP  DISCARDABLE     "res\\Option_Pen.bmp"
+IDB_OPTION_TEXT         BITMAP  DISCARDABLE     "res\\Option_Text.bmp"
+IDB_OPTION_SOUND        BITMAP  DISCARDABLE     "res\\Option_Sound.bmp"
+IDB_OPTION_SNAPSHOT     BITMAP  DISCARDABLE     "res\\Option_Snapshot.bmp"
+IDB_OPTION_LOGO         BITMAP  DISCARDABLE     "res\\Option_Logo.bmp"
+IDB_OPTION_FOLDER       BITMAP  DISCARDABLE     "res\\Option_Folder.bmp"
+IDB_OPTION_CAMERA       BITMAP  DISCARDABLE     "res\\Option_Camera.bmp"
+IDB_OPTION_UPBTN        BITMAP  DISCARDABLE     "res\\Option_Up.bmp"
+IDB_OPTION_DOWNBTN      BITMAP  DISCARDABLE     "res\\Option_Down.bmp"
+IDB_OPTION_VIDEO        BITMAP  DISCARDABLE     "res\\Option_Video.bmp"
+IDB_OKBTN               BITMAP  DISCARDABLE     "res\\OKBtn.bmp"
+IDB_CANCELBTN           BITMAP  DISCARDABLE     "res\\CancelBtn.bmp"
+IDB_RECORDRANGE         BITMAP  DISCARDABLE     "res\\RecordRange.bmp"
+IDB_SELBTN              BITMAP  DISCARDABLE     "res\\SelBtn.bmp"
+IDB_BROSERBTN           BITMAP  DISCARDABLE     "res\\BrowserBtn.bmp"
+IDB_CLOSE               BITMAP  DISCARDABLE     "res\\Close.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Author.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SPLASH_DIALOG DIALOGEX 0, 0, 251, 262
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,0,0,251,262
+END
+
+IDD_PENSELECTDLG DIALOGEX 0, 0, 107, 71
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_ERASERSELECTDLG DIALOGEX 0, 0, 107, 88
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_COLORSELECTDLG DIALOGEX 0, 0, 107, 53
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_LINEWEIGHTSELECTDLG DIALOGEX 0, 0, 107, 87
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DIAGRAMSELECTDLG DIALOGEX 0, 0, 107, 71
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_BOARDSELECTDLG DIALOGEX 0, 0, 107, 88
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_SLIDEMENUDLG DIALOGEX 0, 0, 127, 137
+STYLE DS_SYSMODAL | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_SLIDE_SELECTBTN,49,102,30,15
+    PUSHBUTTON      "",IDC_SLIDE_CANCELBTN,82,102,30,15
+    PUSHBUTTON      "",IDC_SLIDE_OPENBTN,0,102,45,15
+END
+
+IDD_BOARDDLG DIALOG DISCARDABLE  0, 0, 307, 300
+STYLE WS_POPUP
+FONT 9, "MS Sans Serif"
+BEGIN
+END
+
+IDD_WMVCONVERTDLG DIALOG DISCARDABLE  0, 0, 314, 200
+STYLE WS_POPUP
+FONT 9, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_AVIPATH_EDIT,21,79,214,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_WMVPATH_EDIT,21,121,214,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "",IDC_WMVPATHBROWSER,244,120,50,14
+    PUSHBUTTON      "",IDOK,190,181,50,14
+    PUSHBUTTON      "",IDC_WMVCONV_NEXTBTN,190,181,50,14
+    CONTROL         "Progress1",IDC_WMVCOVPROGRESSBAR,"msctls_progress32",
+                    WS_BORDER,21,79,268,14
+    CONTROL         "",IDC_PREVIEWWMVBTN,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,21,79,181,12
+    PUSHBUTTON      "",IDCANCEL,244,181,50,14
+    PUSHBUTTON      "",IDC_WMVCLOSEBTN,290,1,19,14
+    PUSHBUTTON      "",IDC_AVIPATHBROWSER,244,79,50,14
+END
+
+IDD_SAVEPROGRESSDLG DIALOGEX 0, 0, 187, 48
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Progress1",IDC_SAVEPROGRESSBAR,"msctls_progress32",
+                    WS_BORDER,8,16,170,14
+END
+
+IDD_REGISTRATIONDLG DIALOG DISCARDABLE  0, 0, 251, 168
+STYLE DS_SYSMODAL | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Registration"
+FONT 9, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_REGDLG_USERNAMEEDITOR,82,67,160,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGDLG_PRODUCTCODEEDITOR,82,87,160,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REGDLG_REGCODEEDITOR,82,107,160,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Registration",IDOK,126,146,53,16
+    PUSHBUTTON      "Cancel",IDCANCEL,189,146,53,16
+    GROUPBOX        "",IDC_STATIC,6,130,240,9
+END
+
+IDD_OPTIONDLG DIALOG DISCARDABLE  0, 0, 326, 241
+STYLE WS_POPUP | WS_VISIBLE
+FONT 9, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,197,216,50,14
+    PUSHBUTTON      "",IDCANCEL,258,216,50,14
+    PUSHBUTTON      "",IDC_OPTION_TOOLBARBTN,14,32,50,14
+    PUSHBUTTON      "",IDC_OPTION_RECORDBTN,14,47,50,14
+    PUSHBUTTON      "",IDC_OPTION_PENBTN,14,75,50,14
+    PUSHBUTTON      "",IDC_OPTION_HOTKEYBTN,14,105,50,14
+    PUSHBUTTON      "",IDC_OPTION_ABOUTBTN,14,120,50,14
+    PUSHBUTTON      "",IDC_OPTIONCLOSEBTN,302,2,20,13
+    PUSHBUTTON      "",IDC_OPTION_LOGOBTN,14,61,50,14
+    PUSHBUTTON      "",IDC_OPTION_FOLDERBTN,14,90,50,14
+    PUSHBUTTON      "",IDC_OPTION_TEXTBTN,14,134,50,14
+    PUSHBUTTON      "",IDC_OPTION_SOUNDBTN,15,148,50,14
+    PUSHBUTTON      "",IDC_OPTION_SNAPSHOTBTN,15,162,50,14
+    PUSHBUTTON      "",IDC_OPTION_CAMERA,15,176,50,14
+    PUSHBUTTON      "",IDC_OPTION_CODEC,15,190,50,14
+    PUSHBUTTON      "",IDC_OPTION_DOWNBTN,15,204,50,14
+    PUSHBUTTON      "",IDC_OPTION_UPBTN,14,17,50,14
+END
+
+IDD_OPT_RECDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "녹화 설정[녹화 시 적용]",IDC_STATIC,11,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,109
+    LTEXT           "- 마우스 커서 녹화",IDC_STATIC,12,53,59,8
+    COMBOBOX        IDC_OPT_CURSORCOMBO,13,65,59,47,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "- 프레임 비율",IDC_STATIC,90,52,43,8
+    COMBOBOX        IDC_OPT_FPSCOMBO,89,65,59,44,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "- 품질(Quality)",IDC_STATIC,167,52,48,8
+    COMBOBOX        IDC_OPT_QUALITYCOMBO,166,65,59,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "저작도구 녹화",IDC_OPT_TOOLRECCHECKBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,33,59,10
+    CONTROL         "저사양 녹화 모드",IDC_EXCLUSIVE_RECMODE,"Button",
+                    BS_AUTORADIOBUTTON,21,107,69,10
+    CONTROL         "일반 녹화 모드",IDC_NORMAL_RECMODE2,"Button",
+                    BS_AUTORADIOBUTTON,129,107,62,10
+    GROUPBOX        " 녹화 모드 선택 ",IDC_STATIC,13,92,213,33
+END
+
+IDD_OPT_PENFOLDERDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "패턴 [ I ]",IDC_OPT_PATTERN1BTN,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,16,52,40,10
+    CONTROL         "패턴 [O]",IDC_OPT_PATTERN2BTN,"Button",
+                    BS_AUTORADIOBUTTON,69,52,40,10
+    CONTROL         "직선",IDC_OPT_PATTERN3BTN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,129,52,30,10
+    CONTROL         "화살표",IDC_OPT_PATTERN4BTN,"Button",BS_AUTORADIOBUTTON,
+                    175,52,37,10
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "펜 설정",IDC_STATIC,11,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,62
+    GROUPBOX        " 형광펜 패턴 설정 ",IDC_STATIC,10,37,106,35
+    GROUPBOX        " 직선 그리기 패턴 설정 ",IDC_STATIC,123,37,106,35
+END
+
+IDD_OPT_HOTKEYDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "단축 키",IDC_STATIC,12,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,121
+    LTEXT           "모드전환       Alt + M",IDC_STATIC,15,36,67,8
+    LTEXT           "텍스트          Alt + T",IDC_STATIC,15,51,65,8
+    LTEXT           "펜                Alt + P",IDC_STATIC,138,36,65,8
+    LTEXT           "지우개          Alt + E",IDC_STATIC,138,51,65,8
+    LTEXT           "도형             Alt + D",IDC_STATIC,15,66,65,8
+    LTEXT           "옵션             Alt + O",IDC_STATIC,138,66,66,8
+    LTEXT           "녹화             Alt + R",IDC_STATIC,15,81,65,8
+    LTEXT           "포즈             Spacebar",IDC_STATIC,138,81,75,8
+    LTEXT           "PPT Prev      Left Arrow",IDC_STATIC,15,96,78,8
+    LTEXT           "PPT Next      Right Arrow",IDC_STATIC,138,96,83,8
+    LTEXT           "보드             Alt + B",IDC_STATIC,15,111,65,8
+    LTEXT           "확대             Alt + Z",IDC_STATIC,138,111,65,8
+    LTEXT           "도움말          F1",IDC_STATIC,15,126,52,8
+END
+
+IDD_OPT_ABOUTDLG DIALOGEX 0, 0, 237, 180
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "프로그램 정보",IDC_STATIC,11,11,92,8
+    EDITTEXT        IDC_OPT_WARNINGEDITOR,12,116,214,47,ES_MULTILINE | 
+                    ES_READONLY | WS_VSCROLL
+    GROUPBOX        "",IDC_STATIC,5,22,228,150
+    PUSHBUTTON      "제품 등록",IDC_OPTION_REGISTRATION,169,94,56,14
+END
+
+IDD_OPT_TOOLBARDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "Toolbar 관련 설정[축소 모드 시 적용]",IDC_STATIC,10,10,
+                    119,8
+    CONTROL         "펜",IDC_OPT_PENCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,122,32,23,10
+    CONTROL         "텍스트",IDC_OPT_HLPENCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,46,37,10
+    CONTROL         "지우개",IDC_OPT_ERASERCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,122,46,37,10
+    CONTROL         "색상",IDC_OPT_COLORCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,60,30,10
+    CONTROL         "굵기",IDC_OPT_WIDTHCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,122,60,30,10
+    CONTROL         "도형",IDC_OPT_DIAGRAMCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,74,30,10
+    CONTROL         "컨트롤 박스",IDC_OPT_CONTROLCHECKBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,122,74,53,10
+    CONTROL         "PPT 제어",IDC_OPT_PPTCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,88,41,10
+    CONTROL         "배경 칠판",IDC_OPT_BOARDCHECKBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,122,88,46,10
+    CONTROL         "스냅샷",IDC_OPT_SNAPSHOTCHECKBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,122,102,37,10
+    CONTROL         "인쇄, 슬라이드, 종료",IDC_OPT_PRINTCHECKBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,11,116,80,10
+    GROUPBOX        "",IDC_STATIC,5,22,228,111
+    CONTROL         "모드전환",IDC_OPT_MODECHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,32,43,10
+    CONTROL         "확대",IDC_OPT_ZOOMCHECKBTN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,102,30,10
+END
+
+IDD_RECORD_SELECTRANGE DIALOGEX 0, 0, 119, 108
+STYLE WS_POPUP | WS_BORDER
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         " 전체 화면",IDC_RECORD_RANGE_FULL,"Button",
+                    BS_AUTORADIOBUTTON,16,33,48,10
+    CONTROL         " 윈도우",IDC_RECORD_RANGE_WINDOW,"Button",
+                    BS_AUTORADIOBUTTON,16,49,39,10
+    CONTROL         " 부분 영역",IDC_RECORD_RANGE_AREA,"Button",
+                    BS_AUTORADIOBUTTON,16,65,48,10
+    DEFPUSHBUTTON   "",IDOK,23,89,30,15
+    PUSHBUTTON      "",IDCANCEL,66,90,30,15
+    LTEXT           " - 녹화 할 영역을 선택하세요",IDC_STATIC,8,19,91,8
+END
+
+IDD_MAGNIFIERDLG DIALOG DISCARDABLE  0, 0, 307, 300
+STYLE WS_POPUP
+FONT 9, "MS Sans Serif"
+BEGIN
+END
+
+IDD_MAGNIFIERPREVIEWDLG DIALOG DISCARDABLE  0, 0, 139, 107
+STYLE WS_POPUP
+FONT 9, "MS Sans Serif"
+BEGIN
+END
+
+IDD_RECSIZEDLG DIALOG DISCARDABLE  0, 0, 27, 18
+STYLE WS_POPUP
+FONT 9, "MS Sans Serif"
+BEGIN
+END
+
+IDD_TEXTDLG DIALOG DISCARDABLE  0, 0, 187, 94
+STYLE DS_SYSMODAL | WS_POPUP
+FONT 9, "MS Sans Serif"
+BEGIN
+END
+
+IDD_OPT_LOGODLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "로고 설정[녹화 시 적용]",IDC_STATIC,11,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,73
+    CONTROL         "로고 삽입",IDC_OPT_LOGOCHECKBTN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,33,46,10
+    EDITTEXT        IDC_OPT_LOGOEDITOR,13,69,171,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "찾기...",IDC_OPT_LOGOBROWBTN,190,68,36,14
+    LTEXT           "- 로고 파일 위치",IDC_STATIC,13,55,52,8
+END
+
+IDD_OPT_FOLDERDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_OPT_CONTENTSEDITOR,13,47,175,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "찾기...",IDC_OPT_CONTENTSBROWBTN,192,47,36,14
+    EDITTEXT        IDC_OPT_SLIDEEDITOR,13,86,174,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "찾기...",IDC_OPT_SLIDEBROWBTN,192,86,36,14
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "폴더 관리",IDC_STATIC,11,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,90
+    LTEXT           "- 컨텐츠 저장 폴더",IDC_STATIC,12,33,59,8
+    LTEXT           "- 슬라이드 저장 폴더",IDC_STATIC,11,72,66,8
+END
+
+IDD_OPT_TEXTDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "텍스트 입력 설정",IDC_STATIC,12,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,95
+    GROUPBOX        " 텍스트 배경색 설정 ",IDC_STATIC,13,34,211,74
+END
+
+IDD_OPT_SOUNDDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "사운드 캡쳐",IDC_STATIC,12,11,92,8
+    GROUPBOX        "",IDC_STATIC,5,22,228,56
+    CONTROL         "마이크 녹음",IDC_OPT_MIKEREC,"Button",
+                    BS_AUTORADIOBUTTON,21,49,53,10
+    CONTROL         "동시 녹음",IDC_OPT_MIXREC,"Button",BS_AUTORADIOBUTTON,
+                    129,49,46,10
+    GROUPBOX        " 녹음 모드 선택 ",IDC_STATIC,13,34,211,33
+END
+
+IDD_OPT_SNAPSHOTDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "스냅 샷 설정",IDC_STATIC,12,11,92,8
+    CONTROL         "전체 화면 캡쳐",IDC_OPT_SNAPSHOTFULL,"Button",
+                    BS_AUTORADIOBUTTON,21,49,62,10
+    CONTROL         "선택 영역 캡쳐",IDC_OPT_SNAPSHOTRANGE,"Button",
+                    BS_AUTORADIOBUTTON,129,49,62,10
+    GROUPBOX        " 화면 캡쳐 모드 선택 ",IDC_STATIC,13,34,211,33
+    GROUPBOX        "",IDC_STATIC,5,22,228,56
+END
+
+IDD_OPT_CAMERADLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,2,228,21,BS_CENTER
+    LTEXT           "카메라 설정",IDC_STATIC,12,11,92,8
+    CONTROL         "160 x 120",IDC_OPT_CAMERA_SIZE0,"Button",
+                    BS_AUTORADIOBUTTON,21,50,45,10
+    CONTROL         "320 x 240",IDC_OPT_CAMERA_SIZE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,21,67,45,10
+    GROUPBOX        " 화면 사이즈",IDC_STATIC,13,34,212,87
+    GROUPBOX        "",IDC_STATIC,5,22,228,105
+    CONTROL         "640 x 480",IDC_OPT_CAMERA_SIZE2,"Button",
+                    BS_AUTORADIOBUTTON,21,84,45,10
+    CONTROL         "1024 x 768",IDC_OPT_CAMERA_SIZE3,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,21,101,49,10
+END
+
+IDD_OPT_CODECDLG DIALOGEX 0, 0, 237, 178
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",-1,5,2,228,21,BS_CENTER
+    LTEXT           "코덱 설정",-1,12,11,92,8
+    GROUPBOX        "",-1,5,22,228,35
+    CONTROL         " 녹화 시 비디오 압축 코덱을 설정합니다.",
+                    IDC_OPT_VIDEOCODEC_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,12,35,140,10
+END
+
+IDD_AUTHOR_DIALOG DIALOGEX 0, 0, 585, 53
+STYLE DS_SYSMODAL | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDOK,559,27,20,21
+    PUSHBUTTON      "",IDC_PENBTN,48,12,32,32
+    PUSHBUTTON      "",IDC_TEXT,80,12,32,32
+    PUSHBUTTON      "",IDC_ERASERBTN,112,12,32,32
+    PUSHBUTTON      "",IDC_COLORCHANGEBTN,143,12,32,32
+    PUSHBUTTON      "",IDC_LINEWEIGHTCHANGEBTN,175,12,32,32
+    PUSHBUTTON      "",IDC_ZOOMBTN,457,11,32,32
+    PUSHBUTTON      "",IDC_BOARDOPENBTN,425,11,32,32
+    PUSHBUTTON      "",IDC_RECORDSTOPBTN,303,36,17,14
+    PUSHBUTTON      "",IDC_WMVBTN,325,36,17,14
+    PUSHBUTTON      "",IDC_SNAPSHOTBTN,488,11,32,32
+    PUSHBUTTON      "",IDC_DIAGRAMBTN,207,12,32,32
+    PUSHBUTTON      "",IDC_PPTPREVBTN,380,15,20,26
+    PUSHBUTTON      "",IDC_PPTNEXTBTN,400,15,20,26
+    PUSHBUTTON      "",IDC_PRINTBTN,544,33,14,14
+    PUSHBUTTON      "",IDC_SLIDEMENUBTN,533,4,38,14
+    PUSHBUTTON      "",IDC_RECORDPAUSEBTN,283,35,17,14
+    PUSHBUTTON      "",IDC_MODEBTN,15,12,32,32
+    PUSHBUTTON      "",IDC_SHOWHIDETOOLBTN,0,15,13,22
+    PUSHBUTTON      "",IDC_MOVEBOTTOMBTN,0,39,13,14
+    PUSHBUTTON      "",IDC_MOVETOPBTN,0,0,13,14
+    PUSHBUTTON      "",IDC_RECORDBTN,262,35,17,14
+    PUSHBUTTON      "",IDC_MICBTN,263,0,17,14
+    PUSHBUTTON      "",IDC_HELPBTN,327,0,17,14
+    PUSHBUTTON      "",IDC_OPTIONBTN,265,16,20,14
+    PUSHBUTTON      "",IDC_CAMERABTN,529,33,14,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "e-Learning authoring tool\0"
+            VALUE "CompanyName", "gomtos inc.\0"
+            VALUE "FileDescription", "e-Learning authoring tool\0"
+            VALUE "FileVersion", "1, 1, 0, 0\0"
+            VALUE "InternalName", "iAuthor\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004 gomtos coporation. All right reserved.\0"
+            VALUE "LegalTrademarks", "iAuthor\0"
+            VALUE "OriginalFilename", "iAuthor.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "iAuthor\0"
+            VALUE "ProductVersion", "1, 1, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "종료(&X)",                    ID_APP_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "취소(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(&T)\tCtrl+X",        ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "붙여넣기(&P)\tCtrl+V",        ID_EDIT_PASTE
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "rrr 정보(&A)...",             ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_OPT_RECDLG DLGINIT
+BEGIN
+    IDC_OPT_CURSORCOMBO, 0x403, 10, 0
+0xecb3, 0xadc8, 0xbe20, 0xc7c8, 0x00d4, 
+    IDC_OPT_CURSORCOMBO, 0x403, 12, 0
+0xc3bd, 0xbabd, 0xdbc5, 0xc420, 0xbcbf, 0x00ad, 
+    IDC_OPT_FPSCOMBO, 0x403, 7, 0
+0x4631, 0x6172, 0x656d, "\000" 
+    IDC_OPT_FPSCOMBO, 0x403, 7, 0
+0x4633, 0x6172, 0x656d, "\000" 
+    IDC_OPT_FPSCOMBO, 0x403, 7, 0
+0x4635, 0x6172, 0x656d, "\000" 
+    IDC_OPT_FPSCOMBO, 0x403, 7, 0
+0x4637, 0x6172, 0x656d, "\000" 
+    IDC_OPT_FPSCOMBO, 0x403, 8, 0
+0x3031, 0x7246, 0x6d61, 0x0065, 
+    IDC_OPT_FPSCOMBO, 0x403, 8, 0
+0x3531, 0x7246, 0x6d61, 0x0065, 
+    IDC_OPT_QUALITYCOMBO, 0x403, 3, 0
+0xf3bb, "\000" 
+    IDC_OPT_QUALITYCOMBO, 0x403, 3, 0
+0xdfc1, "\000" 
+    IDC_OPT_QUALITYCOMBO, 0x403, 3, 0
+0xcfc7, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_PENCURSOR           CURSOR  DISCARDABLE     "res\\curPen.cur"
+IDC_BRUSHCURSOR         CURSOR  DISCARDABLE     "res\\brushcur.cur"
+IDC_HGPENCURSOR         CURSOR  DISCARDABLE     "res\\Hpencur.cur"
+IDC_ERASERCURSOR        CURSOR  DISCARDABLE     "res\\erasercur.cur"
+IDC_ERASER_RECTCURSOR   CURSOR  DISCARDABLE     "res\\er_Reccur.cur"
+IDC_LINECURSOR          CURSOR  DISCARDABLE     "res\\linecur.cur"
+IDC_RECTCURSOR          CURSOR  DISCARDABLE     "res\\rectcur.cur"
+IDC_ELLIPSECURSOR       CURSOR  DISCARDABLE     "res\\ellipsecur.cur"
+IDC_TEXTCURSOR          CURSOR  DISCARDABLE     "res\\textcurs.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OPT_PENFOLDERDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_OPT_HOTKEYDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_OPT_ABOUTDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_OPT_TOOLBARDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_RECORD_SELECTRANGE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 104
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\Author.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
