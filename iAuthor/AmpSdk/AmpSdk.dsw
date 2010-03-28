@@ -1,0 +1,98 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DBHook"=.\DBHook\DBHook.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/BCLBoard10/DBHook", RLDAAAAA
+    .\dbhook
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ScrRec"=.\scrrec\src\ScrRec.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AmpSdk/ScrRec", YHEAAAAA
+    .\scrrec\src
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "XInkTest"=.\XInk_040730\XInkTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ScrRec
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DBHook
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "srecTest"=.\scrrec\srecTest\srecTest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ScrRec
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "wmvgen"=.\wmvgen\src\wmvgen.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+    begin source code control
+    "$/AmpSdk/wmvgen", JIEAAAAA
+    .\wmvgen\src
+    end source code control
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
