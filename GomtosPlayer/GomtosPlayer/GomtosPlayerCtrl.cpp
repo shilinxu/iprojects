@@ -229,10 +229,11 @@ LRESULT CGomtosPlayerCtrl::OnGraphNotify(WPARAM wParam, LPARAM lParam)
 	 
 	if (m_Player.GetState() == CHMPlayer::Stopped)
 	{
-		FireOnStop();
 		//m_Player.Play();
 		m_Player.Pause();
 		m_Player.SeekTime(m_Player.GetDuration());
+
+		FireOnStop();
 	}
 
 	return 0;
