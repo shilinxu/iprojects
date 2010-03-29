@@ -354,7 +354,7 @@ void CGomtosPlayerCtrl::SetVolume(DOUBLE newVal)
 	// 0 ~ 100 = -6,000 ~ 0 Conversion
     LONG dbVol = (long) ((newVal / 100.) * 6000. - 6000.);
 	if (dbVol <= -6000)
-		dbVol = 0;
+		dbVol = -10000;
 
 	m_Player.SetAudioVolume(dbVol);
 
