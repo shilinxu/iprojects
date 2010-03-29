@@ -338,7 +338,7 @@ DOUBLE CGomtosPlayerCtrl::GetVolume(void)
 
 	// -6,000 ... 0 -> 0.0 ... 1.0 Conversion
 	LONG vol = m_Player.GetAudioVolume();
-	if (vol < -6000.)
+	if (vol <= -6000.)
 		vol = 0;
 	else
 		vol = (LONG) ((vol + 6000.0) / 60.);
@@ -353,6 +353,9 @@ void CGomtosPlayerCtrl::SetVolume(DOUBLE newVal)
 	//LONG dbVol = 20 * log (newVal / 100);
 	// 0 ~ 100 = -6,000 ~ 0 Conversion
     LONG dbVol = (long) ((newVal / 100.) * 6000. - 6000.);
+	if (dbVol <= -6000)
+		dbVol = 0;
+
 	m_Player.SetAudioVolume(dbVol);
 
 	SetModifiedFlag();
