@@ -341,7 +341,7 @@ DOUBLE CGomtosPlayerCtrl::GetVolume(void)
 	if (vol < -6000.)
 		vol = 0;
 	else
-		vol = (vol + 6000.) / 60.;
+		vol = (LONG) ((vol + 6000.0) / 60.);
 
 	return (DOUBLE)vol;
 }

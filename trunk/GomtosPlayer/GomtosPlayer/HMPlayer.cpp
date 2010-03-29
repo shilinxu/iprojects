@@ -20,11 +20,7 @@
 #endif
 
 // DirectShow 라이브러리 링크
-#ifdef _DEBUG
-	#pragma comment(lib, "strmbasd.lib")
-#else
-	#pragma comment(lib, "strmbase.lib")
-#endif
+#pragma comment(lib, "strmiids.lib")
 
 // 멀티미디어 라이브러리 링크
 #pragma comment(lib, "winmm.lib")
