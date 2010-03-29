@@ -149,11 +149,9 @@ void CHMPlayer::createContents(LPCTSTR pszFile)
 
 #ifndef UNICODE
     MultiByteToWideChar(CP_ACP, 0, pszFile, -1, wFile, MAX_PATH);
-#else
-    lstrcpy(wFile, pszFile);
 #endif
 
-	_tcscpy(m_szFile, pszFile);
+	_tcscpy_s(m_szFile, _tcslen(pszFile), pszFile);
 
     // Get the interface for DirectShow's GraphBuilder
 	IGraphBuilder *pGB;
@@ -861,7 +859,8 @@ REFTIME CHMPlayer::GetDuration()
 	}
 	else
 	{
-		m_pMP->get_Duration(&duration) * 1000.0;	// in seconds
+		m_pMP->get_Duration(&duration);
+		duration *= 1000.0;	// in seconds
 	}
 
     
