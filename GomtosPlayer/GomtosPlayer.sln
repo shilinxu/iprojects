@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GomtosPlayer", "GomtosPlayer\GomtosPlayer.vcproj", "{953E8016-C934-47F8-8FAA-5C3BB9CE9D86}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcproj", "{5A27E204-5A54-4B02-8C35-B5E13C23491D}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -17,6 +19,10 @@ Global
 		{953E8016-C934-47F8-8FAA-5C3BB9CE9D86}.Debug|Win32.Build.0 = Debug|Win32
 		{953E8016-C934-47F8-8FAA-5C3BB9CE9D86}.Release|Win32.ActiveCfg = Release|Win32
 		{953E8016-C934-47F8-8FAA-5C3BB9CE9D86}.Release|Win32.Build.0 = Release|Win32
+		{5A27E204-5A54-4B02-8C35-B5E13C23491D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A27E204-5A54-4B02-8C35-B5E13C23491D}.Debug|Win32.Build.0 = Debug|Win32
+		{5A27E204-5A54-4B02-8C35-B5E13C23491D}.Release|Win32.ActiveCfg = Release|Win32
+		{5A27E204-5A54-4B02-8C35-B5E13C23491D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
